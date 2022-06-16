@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Bootstrap Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1 class="text-center text-white pt-3">HOMEBANKING</h1>
+    <!-- COTIZACIONES -->
+    <div class="container justify-content-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card text-bg-warning text-center" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title" id="card1"></h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">
+                Valores:
+              </h6>
+              <h6 class="card-text">
+                Compra: <span id="valor_de_compra1"></span>
+              </h6>
+              <h6 class="card-text">
+                Venta: <span id="valor_de_venta1"></span>
+              </h6>
+              <p class="card-text">
+                Variacion: <span id="variacion_de_valor1"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-bg-warning text-center" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title" id="card2"></h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">
+                Valores:
+              </h6>
+              <h6 class="card-text">
+                Compra: <span id="valor_de_compra2"></span>
+              </h6>
+              <h6 class="card-text">
+                Venta: <span id="valor_de_venta2"></span>
+              </h6>
+              <p class="card-text">
+                Variacion: <span id="variacion_de_valor2"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-bg-warning text-center" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title" id="card3"></h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">
+                Valores:
+              </h6>
+              <h6 class="card-text">
+                Compra: <span id="valor_de_compra3"></span>
+              </h6>
+              <h6 class="card-text">
+                Venta: <span id="valor_de_venta3"></span>
+              </h6>
+              <p class="card-text">
+                Variacion: <span id="variacion_de_valor3"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card text-bg-warning text-center" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title" id="card4"></h5>
+              <h6 class="card-subtitle mb-2 text-muted text-center">
+                Valores:
+              </h6>
+              <h6 class="card-text">
+                Compra: <span id="valor_de_compra4"></span>
+              </h6>
+              <h6 class="card-text">
+                Venta: <span id="valor_de_venta4"></span>
+              </h6>
+              <p class="card-text">
+                Variacion: <span id="variacion_de_valor4"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="fetch_api.js"></script>
+    <!-- FIN DE COTIZACIONES -->
+  </body>
+</html>
